@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+* {
+  letter-spacing: 0 !important;
+}
+
+
+.item-news-schools,
+html, body {
+  direction: rtl;
+}
+body {
+  /* font-family: 'Cairo',sans-serif; */
+  font-family: 'Almarai', sans-serif;
+}
+
+
+.item-price .head-pt .price strong,
+.slick-slider,
+.swiper-container,
+.owl-carousel {
+  direction: ltr;
+}
+
+
+.style_en {
+  direction: ltr !important;
+}
+
+.item-school,
+.item-txt {
+  direction: rtl;
+}
+
+
+/* .fa-chevron-left:before {
+  content: "\f054";
+}
+.fa-chevron-right:before {
+  content: "\f053";
+} */
+
+
+.txt-client {
+    text-align: right;
+}
+
+.thums-imgs {
+    right: auto;
+    left: 0;
+}
+.swiper-slide {
+    direction: rtl;
+}
+
+
+
+.dropdown-menu[style] {
+    left: auto !important;
+    right: 0 !important;
+}
+.dropdown-menu.show {
+    transform: translate(0px, 40px) !important;
+    -webkit-transform: translate(0px, 40px) !important;
+    -moz-transform: translate(0px, 40px) !important;
+    -ms-transform: translate(0px, 40px) !important;
+    -o-transform: translate(0px, 40px) !important;
+}
+
+.accordion-button::after {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.form-check-label {
+    margin-left: 0;
+    margin-right: 2rem;
+}
+
+.sidebar {
+    font-family: 'Almarai', sans-serif !important;
+}
+
+.footer-details a:last-child {
+    border-left: 0;
+}
+.footer-details a {
+    border-right: 0;
+    border-left: 1px solid #acb9a6;
+}
+
+
+.pricing-one__list li {
+  padding-left: 0;
+  padding-right: 1.1rem;
+  line-height: 1.8em;
+}
+.pricing-one__list li::after {
+  left: auto;
+  right: 0;
+}
+
+
+.item-price .body-pt ul li::before {
+  left: auto;
+  right: 0;
+}
+.item-price .body-pt ul li {
+  padding-left: 0;
+  padding-right: 1.3rem;
+}
+.item-price .head-pt .price strong sup {
+  font-weight: bold;
+  font-size: 18px;
+  margin: auto .3rem;
+}
+.item-price .head-pt .price span {
+  margin-right: 0;
+  margin-left: 1rem;
+}

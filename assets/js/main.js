@@ -322,6 +322,44 @@ function onLoadPage() {
     },
   });
 
+  var swiper45 = new Swiper(".slides-schools-city", {
+    allowTouchMove: true,
+    preventClicks: true,
+    slidesPerColumn: 1,
+    spaceBetween: 0,
+    // loop: true,
+    keyboard: {
+      enabled: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    // pagination: {
+    //   el: ".swiper-pagination-second",
+    //   clickable: true,
+    // },
+    on: {
+      resize: function () {
+        swiperSecond.update();
+      },
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 5,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+      },
+    },
+  });
+
   var swiper3 = new Swiper(".slides-featured-schools", {
     allowTouchMove: true,
     preventClicks: true,
